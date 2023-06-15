@@ -1,0 +1,1401 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 724556500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to Register Account page",
+            "match": {
+              "location": "script.Register.user_navigates_to_register_account_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T06:23:06.783Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7458469300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User creates account only with mandatory fields",
+        "description": "",
+        "id": "registration-functionality;user-creates-account-only-with-mandatory-fields",
+        "after": [
+          {
+            "result": {
+              "duration": 547661900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1409134400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the details into below fields",
+            "match": {
+              "location": "script.Register.user_enters_the_details_into_below_fields(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "Shiba"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "Shankar"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "shibamohapatra15@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "7008355173"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Shiba@54"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146908300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User selects Privacy Policy",
+            "match": {
+              "location": "script.Register.user_selects_privacy_policy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 516682100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on Continue button",
+            "match": {
+              "location": "script.Register.user_clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119929500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user account should get created successfully",
+            "match": {
+              "location": "script.Register.user_account_should_get_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 784517200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to Register Account page",
+            "match": {
+              "location": "script.Register.user_navigates_to_register_account_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T06:23:17.858Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4338336100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User creates account only with all fields",
+        "description": "",
+        "id": "registration-functionality;user-creates-account-only-with-all-fields",
+        "after": [
+          {
+            "result": {
+              "duration": 677584500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1630995100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters the details into below fields",
+            "match": {
+              "location": "script.Register.user_enters_the_details_into_below_fields(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "Shiba S"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "Shankar"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "shibamohapatra2233@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "7008355174"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Shiba@54"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162900600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user selects yes for Newsletter",
+            "match": {
+              "location": "script.Register.user_selects_yes_for_newsletter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159902400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User selects Privacy Policy",
+            "match": {
+              "location": "script.Register.user_selects_privacy_policy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 581642600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user clicks on Continue button",
+            "match": {
+              "location": "script.Register.user_clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98937700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user account should get created successfully",
+            "match": {
+              "location": "script.Register.user_account_should_get_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 811503200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to Register Account page",
+            "match": {
+              "location": "script.Register.user_navigates_to_register_account_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T06:23:26.346Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4525219300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "User creates a duplicate account",
+        "description": "",
+        "id": "registration-functionality;user-creates-a-duplicate-account",
+        "after": [
+          {
+            "result": {
+              "duration": 499688200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1296203200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enters again the details into below fields",
+            "match": {
+              "location": "script.Register.user_enters_again_the_details_into_below_fields(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "firstName",
+                  "Shiba"
+                ]
+              },
+              {
+                "cells": [
+                  "lastName",
+                  "Shankar"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "shibamohapatra153@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "7008355172"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "Shiba@54"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142912800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user selects yes for Newsletter",
+            "match": {
+              "location": "script.Register.user_selects_yes_for_newsletter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126921500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User selects Privacy Policy",
+            "match": {
+              "location": "script.Register.user_selects_privacy_policy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76617266900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user clicks on Continue button",
+            "match": {
+              "location": "script.Register.user_clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94939900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user should get a proper warning about duplicate email",
+            "match": {
+              "location": "script.Register.user_should_get_a_proper_warning_about_duplicate_email()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 843480800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to Register Account page",
+            "match": {
+              "location": "script.Register.user_navigates_to_register_account_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T06:24:50.494Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4213414000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.setup()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "User creating account without filling any field",
+        "description": "",
+        "id": "registration-functionality;user-creating-account-without-filling-any-field",
+        "after": [
+          {
+            "result": {
+              "duration": 430736700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 985395700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User do not enter any details into any field",
+            "match": {
+              "location": "script.Register.user_do_not_enter_any_details_into_any_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132918200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User selects Privacy Policy",
+            "match": {
+              "location": "script.Register.user_selects_privacy_policy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 449722700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Clicks on continue button",
+            "match": {
+              "location": "script.Register.clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206867900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user should get proper warning message for every mandatory field",
+            "match": {
+              "location": "script.Register.user_should_get_proper_warning_message_for_every_mandatory_field()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration Functionality",
+    "description": "",
+    "id": "registration-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FeatureFile/Register.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 540668500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has navigated to login page",
+            "match": {
+              "location": "script.Login.user_has_navigated_to_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T06:24:57.813Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3742701000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login with valid credential",
+        "description": "",
+        "id": "login-functionality;login-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 393756800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 370772200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters valid email address \"shibamohapatra153@gmail.com\" into email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shibamohapatra153@gmail.com\"",
+                  "offset": 32
+                }
+              ],
+              "location": "script.Login.user_enters_valid_email_address_into_email_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 185885100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters valid password \"Shiba@54\" into password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shiba@54\"",
+                  "offset": 27
+                }
+              ],
+              "location": "script.Login.user_enters_valid_password_into_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 710565600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on the  login button",
+            "match": {
+              "location": "script.Login.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124921000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should get successfully logged in",
+            "match": {
+              "location": "script.Login.user_should_get_successfully_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 609626400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has navigated to login page",
+            "match": {
+              "location": "script.Login.user_has_navigated_to_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T06:25:03.917Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3845641900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with invalid credential",
+        "description": "",
+        "id": "login-functionality;login-with-invalid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 442725900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 367774700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters invalid email address \"shiba@gmail.com\" into email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shiba@gmail.com\"",
+                  "offset": 34
+                }
+              ],
+              "location": "script.Login.user_enters_invalid_email_address_into_email_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 216867500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters valid password \"Sh@54\" into password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sh@54\"",
+                  "offset": 27
+                }
+              ],
+              "location": "script.Login.user_enters_valid_password_into_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 390759400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on the  login button",
+            "match": {
+              "location": "script.Login.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89945400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should get proper warning message",
+            "match": {
+              "location": "script.Login.user_should_get_proper_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 519686200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has navigated to login page",
+            "match": {
+              "location": "script.Login.user_has_navigated_to_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T06:25:09.912Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3952572700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login with valid email id and invalid password",
+        "description": "",
+        "id": "login-functionality;login-with-valid-email-id-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 432735600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 439726900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user enters invalid email address \"shibamohapatra153@gmail.com\" into email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shibamohapatra153@gmail.com\"",
+                  "offset": 34
+                }
+              ],
+              "location": "script.Login.user_enters_invalid_email_address_into_email_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 213869000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters valid password \"Sh@54\" into password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sh@54\"",
+                  "offset": 27
+                }
+              ],
+              "location": "script.Login.user_enters_valid_password_into_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 416742200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on the  login button",
+            "match": {
+              "location": "script.Login.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87946300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should get proper warning message about credentials",
+            "match": {
+              "location": "script.Login.user_should_get_proper_warning_message_about_credentials()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 549660800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has navigated to login page",
+            "match": {
+              "location": "script.Login.user_has_navigated_to_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T06:25:16.006Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4096487100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Login with invalid email id and valid password",
+        "description": "",
+        "id": "login-functionality;login-with-invalid-email-id-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 445725000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 314807700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters invalid email address \"shiba@gmail.com\" into email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shiba@gmail.com\"",
+                  "offset": 34
+                }
+              ],
+              "location": "script.Login.user_enters_invalid_email_address_into_email_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226858400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters valid password \"Shiba@54\" into password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shiba@54\"",
+                  "offset": 27
+                }
+              ],
+              "location": "script.Login.user_enters_valid_password_into_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 379766900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user clicks on the  login button",
+            "match": {
+              "location": "script.Login.user_clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89945700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user should get proper warning message about credentials",
+            "match": {
+              "location": "script.Login.user_should_get_proper_warning_message_about_credentials()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 595635200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has navigated to login page",
+            "match": {
+              "location": "script.Login.user_has_navigated_to_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T06:25:22.135Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5182817700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Login without providing any credential",
+        "description": "",
+        "id": "login-functionality;login-without-providing-any-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 436731200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 224860300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user do not enter email id into email field",
+            "match": {
+              "location": "script.Login.user_do_not_enter_email_id_into_email_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168898300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user do not enter password into password field",
+            "match": {
+              "location": "script.Login.user_do_not_enter_password_into_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 481704000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user clicks on the login button",
+            "match": {
+              "location": "script.Login.user_clicks_on_the_login_button1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107933400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user should get proper warning for all mandatory field",
+            "match": {
+              "location": "script.Login.user_should_get_proper_warning_for_all_mandatory_field()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FeatureFile/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 998400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens application",
+            "match": {
+              "location": "script.SearchBox.user_opens_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T06:25:29.362Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3841641800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User searches for a valid product",
+        "description": "",
+        "id": "search-functionality;user-searches-for-a-valid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 480704100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 198878000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters valid product name \"HP\" into search box field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HP\"",
+                  "offset": 31
+                }
+              ],
+              "location": "script.SearchBox.user_enters_valid_product_name_into_search_box_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 544661700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "script.SearchBox.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137914200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should get valid product displayed in search results",
+            "match": {
+              "location": "script.SearchBox.user_should_get_valid_product_displayed_in_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens application",
+            "match": {
+              "location": "script.SearchBox.user_opens_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T06:25:34.594Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4438273700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User searches for an invalid product",
+        "description": "",
+        "id": "search-functionality;user-searches-for-an-invalid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 383764700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 259842300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters invalid product name \"Honda\" into search box field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Honda\"",
+                  "offset": 33
+                }
+              ],
+              "location": "script.SearchBox.user_enters_invalid_product_name_into_search_box_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 459718600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "script.SearchBox.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111932900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should get message no matching product",
+            "match": {
+              "location": "script.SearchBox.user_should_get_message_no_matching_product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens application",
+            "match": {
+              "location": "script.SearchBox.user_opens_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-14T06:25:40.275Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4294365100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User searches without entering anything in search text field",
+        "description": "",
+        "id": "search-functionality;user-searches-without-entering-anything-in-search-text-field",
+        "after": [
+          {
+            "result": {
+              "duration": 505688400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.MyHooks.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 277829600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user do not enter anything into search box field",
+            "match": {
+              "location": "script.SearchBox.user_do_not_enter_anything_into_search_box_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 892453700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "script.SearchBox.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should get proper message",
+            "match": {
+              "location": "script.SearchBox.user_should_get_proper_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/FeatureFile/searchbox.feature",
+    "tags": []
+  }
+]

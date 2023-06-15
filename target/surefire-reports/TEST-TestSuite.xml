@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="166.83" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\ECLIPSE\TutorialsNinjaProj\target\test-classes;D:\ECLIPSE\TutorialsNinjaProj\target\classes;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\shiba\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\shiba\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\shiba\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\shiba\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\shiba\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shiba\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\shiba\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\shiba\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\shiba\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar;C:\Users\shiba\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\shiba\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\shiba\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\shiba\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\shiba\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\shiba\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\shiba\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\shiba\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\shiba\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\shiba\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\shiba\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar;C:\Users\shiba\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.3\webdrivermanager-5.3.3.jar;C:\Users\shiba\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\shiba\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\shiba\.m2\repository\com\github\docker-java\docker-java\3.3.0\docker-java-3.3.0.jar;C:\Users\shiba\.m2\repository\com\github\docker-java\docker-java-core\3.3.0\docker-java-core-3.3.0.jar;C:\Users\shiba\.m2\repository\com\github\docker-java\docker-java-api\3.3.0\docker-java-api-3.3.0.jar;C:\Users\shiba\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\shiba\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\shiba\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\shiba\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\shiba\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\shiba\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\shiba\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\shiba\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\shiba\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.0\docker-java-transport-httpclient5-3.3.0.jar;C:\Users\shiba\.m2\repository\com\github\docker-java\docker-java-transport\3.3.0\docker-java-transport-3.3.0.jar;C:\Users\shiba\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\shiba\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\shiba\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\shiba\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\shiba\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\shiba\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-java\6.10.3\cucumber-java-6.10.3.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-core\6.10.3\cucumber-core-6.10.3.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-gherkin\6.10.3\cucumber-gherkin-6.10.3.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.3\cucumber-gherkin-messages-6.10.3.jar;C:\Users\shiba\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\shiba\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\shiba\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-plugin\6.10.3\cucumber-plugin-6.10.3.jar;C:\Users\shiba\.m2\repository\io\cucumber\docstring\6.10.3\docstring-6.10.3.jar;C:\Users\shiba\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\shiba\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\shiba\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-testng\6.10.4\cucumber-testng-6.10.4.jar;C:\Users\shiba\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\shiba\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\plugins\maven-surefire-report-plugin\3.1.2\maven-surefire-report-plugin-3.1.2.jar;C:\Users\shiba\.m2\repository\org\apache\maven\surefire\surefire-report-parser\3.1.2\surefire-report-parser-3.1.2.jar;C:\Users\shiba\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.1.2\surefire-logger-api-3.1.2.jar;C:\Users\shiba\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.11.1\doxia-sink-api-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.11.1\doxia-logging-api-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-core\1.11.1\doxia-core-1.11.1.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-container-default\2.1.0\plexus-container-default-2.1.0.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\shiba\.m2\repository\org\apache\xbean\xbean-reflect\3.7\xbean-reflect-3.7.jar;C:\Users\shiba\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-component-annotations\2.1.0\plexus-component-annotations-2.1.0.jar;C:\Users\shiba\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\shiba\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\shiba\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shiba\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\shiba\.m2\repository\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar;C:\Users\shiba\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.1.1\maven-reporting-api-3.1.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\3.2.0\maven-reporting-impl-3.2.0.jar;C:\Users\shiba\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.11.1\doxia-decoration-model-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-integration-tools\1.11.1\doxia-integration-tools-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-10\plexus-i18n-1.0-beta-10.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.26\plexus-interpolation-1.26.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.11.1\doxia-site-renderer-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.11.1\doxia-skin-model-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.11.1\doxia-module-xhtml-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml5\1.11.1\doxia-module-xhtml5-1.11.1.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar;C:\Users\shiba\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\shiba\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\shiba\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\shiba\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\shiba\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\shiba\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\shiba\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\shiba\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\shiba\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\shiba\AppData\Local\Temp\surefire8960066182207132412\surefirebooter-20230614115303078_3.jar C:\Users\shiba\AppData\Local\Temp\surefire8960066182207132412 2023-06-14T11-53-02_710-jvmRun1 surefire-20230614115303078_1tmp surefire_0-20230614115303078_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\ECLIPSE\TutorialsNinjaProj\target\test-classes;D:\ECLIPSE\TutorialsNinjaProj\target\classes;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.1\selenium-java-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.1\selenium-api-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.1\selenium-chrome-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\shiba\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\shiba\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\shiba\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\shiba\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\shiba\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shiba\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\shiba\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\shiba\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\shiba\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.1\selenium-chromium-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.1\selenium-json-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.1\selenium-manager-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.1\selenium-devtools-v111-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.1\selenium-devtools-v112-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.9.1\selenium-devtools-v113-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.1\selenium-devtools-v85-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.1\selenium-edge-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.1\selenium-firefox-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.1\selenium-http-4.9.1.jar;C:\Users\shiba\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.1\selenium-ie-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.1\selenium-remote-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\shiba\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\shiba\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\shiba\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\shiba\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\shiba\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\shiba\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\shiba\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\shiba\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\shiba\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\shiba\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\shiba\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\shiba\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.1\selenium-safari-driver-4.9.1.jar;C:\Users\shiba\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.1\selenium-support-4.9.1.jar;C:\Users\shiba\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.3\webdrivermanager-5.3.3.jar;C:\Users\shiba\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\shiba\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\shiba\.m2\repository\com\github\docker-java\docker-java\3.3.0\docker-java-3.3.0.jar;C:\Users\shiba\.m2\repository\com\github\docker-java\docker-java-core\3.3.0\docker-java-core-3.3.0.jar;C:\Users\shiba\.m2\repository\com\github\docker-java\docker-java-api\3.3.0\docker-java-api-3.3.0.jar;C:\Users\shiba\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\shiba\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\shiba\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\shiba\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\shiba\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\shiba\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\shiba\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\shiba\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\shiba\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.0\docker-java-transport-httpclient5-3.3.0.jar;C:\Users\shiba\.m2\repository\com\github\docker-java\docker-java-transport\3.3.0\docker-java-transport-3.3.0.jar;C:\Users\shiba\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\shiba\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\shiba\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\shiba\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\shiba\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\shiba\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-java\6.10.3\cucumber-java-6.10.3.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-core\6.10.3\cucumber-core-6.10.3.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-gherkin\6.10.3\cucumber-gherkin-6.10.3.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.3\cucumber-gherkin-messages-6.10.3.jar;C:\Users\shiba\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\shiba\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\shiba\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-plugin\6.10.3\cucumber-plugin-6.10.3.jar;C:\Users\shiba\.m2\repository\io\cucumber\docstring\6.10.3\docstring-6.10.3.jar;C:\Users\shiba\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\shiba\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\shiba\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\shiba\.m2\repository\io\cucumber\cucumber-testng\6.10.4\cucumber-testng-6.10.4.jar;C:\Users\shiba\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\shiba\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\plugins\maven-surefire-report-plugin\3.1.2\maven-surefire-report-plugin-3.1.2.jar;C:\Users\shiba\.m2\repository\org\apache\maven\surefire\surefire-report-parser\3.1.2\surefire-report-parser-3.1.2.jar;C:\Users\shiba\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.1.2\surefire-logger-api-3.1.2.jar;C:\Users\shiba\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.11.1\doxia-sink-api-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.11.1\doxia-logging-api-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-core\1.11.1\doxia-core-1.11.1.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-container-default\2.1.0\plexus-container-default-2.1.0.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\shiba\.m2\repository\org\apache\xbean\xbean-reflect\3.7\xbean-reflect-3.7.jar;C:\Users\shiba\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-component-annotations\2.1.0\plexus-component-annotations-2.1.0.jar;C:\Users\shiba\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\shiba\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\shiba\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\shiba\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\shiba\.m2\repository\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar;C:\Users\shiba\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.1.1\maven-reporting-api-3.1.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\3.2.0\maven-reporting-impl-3.2.0.jar;C:\Users\shiba\.m2\repository\org\apache\maven\maven-artifact\3.1.0\maven-artifact-3.1.0.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.11.1\doxia-decoration-model-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-integration-tools\1.11.1\doxia-integration-tools-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-10\plexus-i18n-1.0-beta-10.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.26\plexus-interpolation-1.26.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.11.1\doxia-site-renderer-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.11.1\doxia-skin-model-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.11.1\doxia-module-xhtml-1.11.1.jar;C:\Users\shiba\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml5\1.11.1\doxia-module-xhtml5-1.11.1.jar;C:\Users\shiba\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar;C:\Users\shiba\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\shiba\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\shiba\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\shiba\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\shiba\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\shiba\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\shiba\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\shiba\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\shiba\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\shiba"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\ECLIPSE\TutorialsNinjaProj"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\shiba\AppData\Local\Temp\surefire8960066182207132412\surefirebooter-20230614115303078_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2+7-44"/>
+    <property name="user.name" value="shiba"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\shiba\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\shiba\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="D:\ECLIPSE\TutorialsNinjaProj"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/PROGRAM FILES/JAVA/JDK-19/BIN/server;C:/PROGRAM FILES/JAVA/JDK-19/BIN;C:\ORACLE\PRODUCT\10.2.0\DB_3\BIN;C:\ORACLE\PRODUCT\10.2.0\DB_2\BIN;C:\ORACLE\PRODUCT\10.2.0\DB_1\BIN;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\Windows\SYSTEM32\OPENSSH\;C:\PROGRAM FILES\JAVA\JDK-19\BIN;C:\apache-maven-3.8.8\BIN;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\shiba\AppData\Local\Microsoft\WindowsApps;;C:\Users\shiba\OneDrive\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.2+7-44"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;User creates account only with mandatory fields&quot;, &quot;Optional[Registration Functionality]&quot;](1)" classname="runner.MyRunner" time="11.383">
+    <system-out><![CDATA[
+Scenario: User creates account only with mandatory fields &amp#27;[90m# src/main/resources/FeatureFile/Register.feature:6&amp#27;[0m
+Browser opened in Chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m           &amp#27;[90m# script.Register.user_navigates_to_register_account_page()&amp#27;[0m
+FirstName entered into the Firstname field
+LastName entered into the Lastname field
+Email id Entered into the Email address field
+Phone number entered into telephone field
+Password Entered in to the password field
+Password Entered in to the confirm password field
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters the details into below fields&amp#27;[0m          &amp#27;[90m# script.Register.user_enters_the_details_into_below_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+Clicked on Privacy Policy
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Privacy Policy&amp#27;[0m                         &amp#27;[90m# script.Register.user_selects_privacy_policy()&amp#27;[0m
+Clicked on Continue button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Continue button&amp#27;[0m                      &amp#27;[90m# script.Register.user_clicks_on_continue_button()&amp#27;[0m
+successfully Created
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser account should get created successfully&amp#27;[0m       &amp#27;[90m# script.Register.user_account_should_get_created_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 14, 2023 11:53:06 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 35860
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 14, 2023 11:53:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User creates account only with all fields&quot;, &quot;Optional[Registration Functionality]&quot;](2)" classname="runner.MyRunner" time="8.523">
+    <system-out><![CDATA[
+Scenario: User creates account only with all fields &amp#27;[90m# src/main/resources/FeatureFile/Register.feature:17&amp#27;[0m
+Browser opened in Chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m     &amp#27;[90m# script.Register.user_navigates_to_register_account_page()&amp#27;[0m
+FirstName entered into the Firstname field
+LastName entered into the Lastname field
+Email id Entered into the Email address field
+Phone number entered into telephone field
+Password Entered in to the password field
+Password Entered in to the confirm password field
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters the details into below fields&amp#27;[0m    &amp#27;[90m# script.Register.user_enters_the_details_into_below_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+Clicked on Yes in news letter
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects yes for Newsletter&amp#27;[0m               &amp#27;[90m# script.Register.user_selects_yes_for_newsletter()&amp#27;[0m
+Clicked on Privacy Policy
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Privacy Policy&amp#27;[0m                   &amp#27;[90m# script.Register.user_selects_privacy_policy()&amp#27;[0m
+Clicked on Continue button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Continue button&amp#27;[0m                &amp#27;[90m# script.Register.user_clicks_on_continue_button()&amp#27;[0m
+successfully Created
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser account should get created successfully&amp#27;[0m &amp#27;[90m# script.Register.user_account_should_get_created_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 14, 2023 11:53:17 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 31404
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 14, 2023 11:53:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User creates a duplicate account&quot;, &quot;Optional[Registration Functionality]&quot;](3)" classname="runner.MyRunner" time="84.16">
+    <system-out><![CDATA[
+Scenario: User creates a duplicate account                    &amp#27;[90m# src/main/resources/FeatureFile/Register.feature:29&amp#27;[0m
+Browser opened in Chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m               &amp#27;[90m# script.Register.user_navigates_to_register_account_page()&amp#27;[0m
+FirstName entered into the Firstname field
+LastName entered into the Lastname field
+Email id Entered into the Email address field
+Phone number entered into telephone field
+Password Entered in to the password field
+Password Entered in to the confirm password field
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters again the details into below fields&amp#27;[0m        &amp#27;[90m# script.Register.user_enters_again_the_details_into_below_fields(io.cucumber.datatable.DataTable)&amp#27;[0m
+Clicked on Yes in news letter
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects yes for Newsletter&amp#27;[0m                         &amp#27;[90m# script.Register.user_selects_yes_for_newsletter()&amp#27;[0m
+Clicked on Privacy Policy
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Privacy Policy&amp#27;[0m                             &amp#27;[90m# script.Register.user_selects_privacy_policy()&amp#27;[0m
+Clicked on Continue button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on Continue button&amp#27;[0m                          &amp#27;[90m# script.Register.user_clicks_on_continue_button()&amp#27;[0m
+The warning message is: Warning: E-Mail Address is already registered!
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get a proper warning about duplicate email&amp#27;[0m &amp#27;[90m# script.Register.user_should_get_a_proper_warning_about_duplicate_email()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 14, 2023 11:53:26 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 39011
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 14, 2023 11:53:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User creating account without filling any field&quot;, &quot;Optional[Registration Functionality]&quot;](4)" classname="runner.MyRunner" time="7.292">
+    <system-out><![CDATA[
+Scenario: User creating account without filling any field               &amp#27;[90m# src/main/resources/FeatureFile/Register.feature:41&amp#27;[0m
+Browser opened in Chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigates to Register Account page&amp#27;[0m                         &amp#27;[90m# script.Register.user_navigates_to_register_account_page()&amp#27;[0m
+FirstName not entered into the Firstname field
+LastName not entered into the Lastname field
+Email id not Entered into the Email address field
+Phone number not entered into telephone field
+Password not Entered in to the password field
+Password not Entered in to the confirm password field
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser do not enter any details into any field&amp#27;[0m                     &amp#27;[90m# script.Register.user_do_not_enter_any_details_into_any_field()&amp#27;[0m
+Clicked on Privacy Policy
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects Privacy Policy&amp#27;[0m                                       &amp#27;[90m# script.Register.user_selects_privacy_policy()&amp#27;[0m
+Clicked on Continue button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClicks on continue button&amp#27;[0m                                         &amp#27;[90m# script.Register.clicks_on_continue_button()&amp#27;[0m
+The Warning Messages are:
+First Name must be between 1 and 32 characters!
+Last Name must be between 1 and 32 characters!
+E-Mail Address does not appear to be valid!
+Telephone must be between 3 and 32 characters!
+Password must be between 4 and 20 characters!
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get proper warning message for every mandatory field&amp#27;[0m &amp#27;[90m# script.Register.user_should_get_proper_warning_message_for_every_mandatory_field()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 14, 2023 11:54:50 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 20367
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 14, 2023 11:54:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with valid credential&quot;, &quot;Optional[Login Functionality]&quot;](5)" classname="runner.MyRunner" time="6.129">
+    <system-out><![CDATA[
+Scenario: Login with valid credential                                                 &amp#27;[90m# src/main/resources/FeatureFile/login.feature:6&amp#27;[0m
+Browser opened in Chrome
+Navigated to login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser has navigated to login page&amp#27;[0m                                              &amp#27;[90m# script.Login.user_has_navigated_to_login_page()&amp#27;[0m
+Entered Email Id in to the email adress text field
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters valid email address &amp#27;[0m&amp#27;[32m&amp#27;[1m"shibamohapatra153@gmail.com"&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# script.Login.user_enters_valid_email_address_into_email_field(java.lang.String)&amp#27;[0m
+Entered Password into the Password textfield
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Shiba@54"&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m                       &amp#27;[90m# script.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+**Clicked on Login Button**
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the  login button&amp#27;[0m                                                &amp#27;[90m# script.Login.user_clicks_on_the_login_button()&amp#27;[0m
+My Account is displayed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get successfully logged in&amp#27;[0m                                         &amp#27;[90m# script.Login.user_should_get_successfully_logged_in()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 14, 2023 11:54:57 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 3510
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 14, 2023 11:54:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with invalid credential&quot;, &quot;Optional[Login Functionality]&quot;](6)" classname="runner.MyRunner" time="5.992">
+    <system-out><![CDATA[
+Scenario: Login with invalid credential                                     &amp#27;[90m# src/main/resources/FeatureFile/login.feature:12&amp#27;[0m
+Browser opened in Chrome
+Navigated to login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser has navigated to login page&amp#27;[0m                                    &amp#27;[90m# script.Login.user_has_navigated_to_login_page()&amp#27;[0m
+Entered invalid Email Id in to the email adress text field
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters invalid email address &amp#27;[0m&amp#27;[32m&amp#27;[1m"shiba@gmail.com"&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# script.Login.user_enters_invalid_email_address_into_email_field(java.lang.String)&amp#27;[0m
+Entered Password into the Password textfield
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sh@54"&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m                &amp#27;[90m# script.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+**Clicked on Login Button**
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the  login button&amp#27;[0m                                      &amp#27;[90m# script.Login.user_clicks_on_the_login_button()&amp#27;[0m
+Warning: No match for E-Mail Address and/or Password. : is displayed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get proper warning message&amp#27;[0m                               &amp#27;[90m# script.Login.user_should_get_proper_warning_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 14, 2023 11:55:03 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 13309
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 14, 2023 11:55:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with valid email id and invalid password&quot;, &quot;Optional[Login Functionality]&quot;](7)" classname="runner.MyRunner" time="6.093">
+    <system-out><![CDATA[
+Scenario: Login with valid email id and invalid password                                &amp#27;[90m# src/main/resources/FeatureFile/login.feature:18&amp#27;[0m
+Browser opened in Chrome
+Navigated to login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser has navigated to login page&amp#27;[0m                                                &amp#27;[90m# script.Login.user_has_navigated_to_login_page()&amp#27;[0m
+Entered invalid Email Id in to the email adress text field
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters invalid email address &amp#27;[0m&amp#27;[32m&amp#27;[1m"shibamohapatra153@gmail.com"&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# script.Login.user_enters_invalid_email_address_into_email_field(java.lang.String)&amp#27;[0m
+Entered Password into the Password textfield
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sh@54"&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m                            &amp#27;[90m# script.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+**Clicked on Login Button**
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the  login button&amp#27;[0m                                                  &amp#27;[90m# script.Login.user_clicks_on_the_login_button()&amp#27;[0m
+Warning: No match for E-Mail Address and/or Password. : is displayed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get proper warning message about credentials&amp#27;[0m                         &amp#27;[90m# script.Login.user_should_get_proper_warning_message_about_credentials()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 14, 2023 11:55:09 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 27321
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 14, 2023 11:55:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with invalid email id and valid password&quot;, &quot;Optional[Login Functionality]&quot;](8)" classname="runner.MyRunner" time="6.132">
+    <system-out><![CDATA[
+Scenario: Login with invalid email id and valid password                    &amp#27;[90m# src/main/resources/FeatureFile/login.feature:24&amp#27;[0m
+Browser opened in Chrome
+Navigated to login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser has navigated to login page&amp#27;[0m                                    &amp#27;[90m# script.Login.user_has_navigated_to_login_page()&amp#27;[0m
+Entered invalid Email Id in to the email adress text field
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters invalid email address &amp#27;[0m&amp#27;[32m&amp#27;[1m"shiba@gmail.com"&amp#27;[0m&amp#27;[32m into email field&amp#27;[0m &amp#27;[90m# script.Login.user_enters_invalid_email_address_into_email_field(java.lang.String)&amp#27;[0m
+Entered Password into the Password textfield
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Shiba@54"&amp#27;[0m&amp#27;[32m into password field&amp#27;[0m             &amp#27;[90m# script.Login.user_enters_valid_password_into_password_field(java.lang.String)&amp#27;[0m
+**Clicked on Login Button**
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the  login button&amp#27;[0m                                      &amp#27;[90m# script.Login.user_clicks_on_the_login_button()&amp#27;[0m
+Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour. : is displayed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get proper warning message about credentials&amp#27;[0m             &amp#27;[90m# script.Login.user_should_get_proper_warning_message_about_credentials()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 14, 2023 11:55:16 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 33334
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 14, 2023 11:55:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login without providing any credential&quot;, &quot;Optional[Login Functionality]&quot;](9)" classname="runner.MyRunner" time="7.23">
+    <system-out><![CDATA[
+Scenario: Login without providing any credential              &amp#27;[90m# src/main/resources/FeatureFile/login.feature:30&amp#27;[0m
+Browser opened in Chrome
+Navigated to login page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser has navigated to login page&amp#27;[0m                      &amp#27;[90m# script.Login.user_has_navigated_to_login_page()&amp#27;[0m
+Entered nothing in to the email adress text field
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser do not enter email id into email field&amp#27;[0m            &amp#27;[90m# script.Login.user_do_not_enter_email_id_into_email_field()&amp#27;[0m
+Entered nothing into the Password textfield
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser do not enter password into password field&amp#27;[0m          &amp#27;[90m# script.Login.user_do_not_enter_password_into_password_field()&amp#27;[0m
+**Clicked on Login Button**
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on the login button&amp#27;[0m                         &amp#27;[90m# script.Login.user_clicks_on_the_login_button1()&amp#27;[0m
+Warning: No match for E-Mail Address and/or Password. : is displayed
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get proper warning for all mandatory field&amp#27;[0m &amp#27;[90m# script.Login.user_should_get_proper_warning_for_all_mandatory_field()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 14, 2023 11:55:22 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 8921
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 14, 2023 11:55:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User searches for a valid product&quot;, &quot;Optional[Search Functionality]&quot;](10)" classname="runner.MyRunner" time="5.225">
+    <system-out><![CDATA[
+Scenario: User searches for a valid product                      &amp#27;[90m# src/main/resources/FeatureFile/searchbox.feature:6&amp#27;[0m
+Browser opened in Chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens application&amp#27;[0m                                   &amp#27;[90m# script.SearchBox.user_opens_application()&amp#27;[0m
+Product name Entered in to the Search text field
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters valid product name &amp#27;[0m&amp#27;[32m&amp#27;[1m"HP"&amp#27;[0m&amp#27;[32m into search box field&amp#27;[0m &amp#27;[90m# script.SearchBox.user_enters_valid_product_name_into_search_box_field(java.lang.String)&amp#27;[0m
+Clicked on Search Button==
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m                               &amp#27;[90m# script.SearchBox.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get valid product displayed in search results&amp#27;[0m &amp#27;[90m# script.SearchBox.user_should_get_valid_product_displayed_in_search_results()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 14, 2023 11:55:29 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 41220
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 14, 2023 11:55:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User searches for an invalid product&quot;, &quot;Optional[Search Functionality]&quot;](11)" classname="runner.MyRunner" time="5.681">
+    <system-out><![CDATA[
+Scenario: User searches for an invalid product                        &amp#27;[90m# src/main/resources/FeatureFile/searchbox.feature:11&amp#27;[0m
+Browser opened in Chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens application&amp#27;[0m                                        &amp#27;[90m# script.SearchBox.user_opens_application()&amp#27;[0m
+Product name Entered in to the Search text field
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters invalid product name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Honda"&amp#27;[0m&amp#27;[32m into search box field&amp#27;[0m &amp#27;[90m# script.SearchBox.user_enters_invalid_product_name_into_search_box_field(java.lang.String)&amp#27;[0m
+Clicked on Search Button==
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m                                    &amp#27;[90m# script.SearchBox.user_clicks_on_search_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get message no matching product&amp#27;[0m                    &amp#27;[90m# script.SearchBox.user_should_get_message_no_matching_product()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 14, 2023 11:55:34 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 34382
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 14, 2023 11:55:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User searches without entering anything in search text field&quot;, &quot;Optional[Search Functionality]&quot;](12)" classname="runner.MyRunner" time="5.995">
+    <system-out><![CDATA[
+Scenario: User searches without entering anything in search text field &amp#27;[90m# src/main/resources/FeatureFile/searchbox.feature:16&amp#27;[0m
+Browser opened in Chrome
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser opens application&amp#27;[0m                                         &amp#27;[90m# script.SearchBox.user_opens_application()&amp#27;[0m
+Nothing Entered in to the Search text field
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser do not enter anything into search box field&amp#27;[0m                &amp#27;[90m# script.SearchBox.user_do_not_enter_anything_into_search_box_field()&amp#27;[0m
+Clicked on Search Button==
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on search button&amp#27;[0m                                     &amp#27;[90m# script.SearchBox.user_clicks_on_search_button()&amp#27;[0m
+Should get Some Relevent Product
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get proper message&amp#27;[0m                                  &amp#27;[90m# script.SearchBox.user_should_get_proper_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jun 14, 2023 11:55:40 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 30576
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 14, 2023 11:55:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 113
+]]></system-err>
+  </testcase>
+</testsuite>
